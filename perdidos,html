@@ -10,10 +10,10 @@
 
     <header class="navbar">
         <a href="index.html">Início</a>
-        <a href="cadastro.html">Cadastro</a>
+    <a href="cadastro.html">cadastro</a>
         <a href="vendas.html">Vendas</a>
         <a href="objetos.html">Objetos</a>
-        <a href="perdi.html">Perdi algo!</a>
+        <a href="perdidos,html">perdidos</a>
     </header>
 
     <main class="container">
