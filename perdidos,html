@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Objetos Encontrados - Meu Site</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="vendas.html">Vendas</a>
+        <a href="objetos.html">Objetos</a>
+        <a href="perdi.html">Perdi algo!</a>
+    </header>
+
+    <main class="container">
+        <h2>Objetos que temos</h2>
+        <div class="card-grid">
+            <div class="card found-item">
+                <img src="img/chaveiro.jpg" alt="Chaveiro perdido">
+                <h3>Chaveiro de coração</h3>
+                <p>Encontrado na praça central.</p>
+            </div>
+            <div class="card found-item">
+                <img src="img/mochila.jpg" alt="Mochila perdida">
+                <h3>Mochila preta</h3>
+                <p>Encontrada na biblioteca.</p>
+            </div>
+        </div>
+    </main>
+
+</body>
+</html>

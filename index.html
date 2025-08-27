@@ -3,39 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro - Achados e Perdidos</title>
+    <title>Cadastro - Meu Site</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <header>
-        <h1>Cadastro de Item Perdido</h1>
+    <header class="navbar">
+        <a href="index.html">Início</a>
+        <a href="cadastro.html">Cadastro</a>
+        <a href="vendas.html">Vendas</a>
+        <a href="objetos.html">Objetos</a>
+        <a href="perdi.html">Perdi algo!</a>
     </header>
 
-    <main>
-        <form action="/upload-item" method="post" enctype="multipart/form-data">
-            <label for="titulo">Título do Item:</label>
-            <input type="text" id="titulo" name="titulo" required>
+    <main class="container">
+        <section class="form-section">
+            <h2>Crie sua conta</h2>
+            <form action="/cadastrar" method="post">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
 
-            <label for="descricao">Descrição:</label>
-            <textarea id="descricao" name="descricao" rows="4" required></textarea>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" required>
 
-            <label for="tipo">Tipo (Perdido/Encontrado):</label>
-            <select id="tipo" name="tipo">
-                <option value="perdido">Perdido</option>
-                <option value="encontrado">Encontrado</option>
-            </select>
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" required>
 
-            <label for="foto_video">Fotos ou Vídeos:</label>
-            <input type="file" id="foto_video" name="foto_video" accept="image/*,video/*" multiple>
-
-            <button type="submit">Cadastrar Item</button>
-        </form>
+                <button type="submit">Cadastrar</button>
+            </form>
+        </section>
     </main>
-
-    <footer>
-        <p>&copy; 2025 Achados e Perdidos</p>
-    </footer>
 
 </body>
 </html>
+
+        
